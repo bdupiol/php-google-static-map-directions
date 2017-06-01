@@ -1,4 +1,6 @@
-public function getStaticGmapURLForDirection($origin, $destination, $waypoints, $size = "500x500") {
+<?php
+
+function getStaticGmapURLForDirection($origin, $destination, $waypoints, $size = "500x500") {
         $markers = array();
         $waypoints_labels = array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K");
         $waypoints_label_iter = 0;
