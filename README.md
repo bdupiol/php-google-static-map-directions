@@ -4,7 +4,9 @@ Small utility function to get a direction rendered on a Google Static Maps from 
 # usage
 
 ```
-include "static-map-direction.php"
+<?php
+
+include "static-map-direction.php";
 
 $origin = "45.291002,-0.868131";
 $destination = "44.683159,-0.405704";
