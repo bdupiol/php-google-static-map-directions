@@ -1,7 +1,10 @@
 # php-google-static-map-directions
 Small utility function to get a direction rendered on a Google Static Maps from an array of locations. Developed for and used by our website <a href="https://www.nabuco.com">Nabuco</a>.
 
-Adds markers with alphabetical order and relevant color for each waypoint.
+- creates a request to Google's direction service via CURL
+- fetches path info from response
+- adds markers with alphabetical order and relevant color for each waypoint
+- creates clean Google Static Map URL
 
 # usage
 
